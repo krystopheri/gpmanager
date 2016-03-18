@@ -22,7 +22,7 @@
 				<td> 
 					 <table>
                                              <tr> <td> <strong> Name: </strong>  </td> <td> <?php echo $gp['name']; ?> </td> </tr>
-                                             <tr> <td> <strong> Reg No:  </strong> </td> <td> <?php echo $gp['details']['reg_no']; ?> </td> </tr>
+                                             <tr> <td> <strong> Reg No:  </strong> </td> <td> ESUT<?php echo $gp['details']['reg_no']; ?> </td> </tr>
                                              <tr> <td> <strong> Department: </strong>  </td> <td> <?php echo $gp['department']; ?> </td>  </tr>
                                              <tr> <td>  <strong> Level:  </strong> </td> <td>	 <?php  echo $gp['details']['level']; ?> </td>   </tr> 
 					 
